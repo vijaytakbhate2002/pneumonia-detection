@@ -5,7 +5,6 @@ import warnings
 warnings.filterwarnings('ignore')
 
 class ProcessImg:
-
     SHAPE = (32,32)
     def __init__(self,img:np.ndarray)-> None:
         """ Args: np.ndarray
@@ -23,8 +22,5 @@ class ProcessImg:
         return self.img
 
 if __name__ == "__main__":
-    img = cv.imread("C:\\Users\\Vijay Takbhate\\Desktop\\Professional Workspace\\Pneumonia Detection\\images\\bacteria\\person100_bacteria_475 (1).jpg")
-    a = ProcessImg(img).process()
-    cv.imshow("Processed image",a)
-    cv.waitKey(4000)
+    pass
 

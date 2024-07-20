@@ -1,14 +1,12 @@
-import cv2 as cv
 import numpy as np
-from Data_ingest import GetImg
-from Data_process import ProcessImg
 import warnings
 from keras.models import load_model
+from config import config
 warnings.filterwarnings('ignore')
 
 class Predict:
     LABELS = {0:"Bacterial pneumonia", 1:"Normal", 2:"Virus pneumonia"}
-    model = load_model("static\\CNN_32_32_1_ASA.h5")
+    model = load_model(config.MODEL_PATH)
 
     def __init__(self,arr:np.ndarray)-> None:
         """ Args: np.ndarray
