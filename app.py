@@ -3,7 +3,6 @@ from PIL import Image
 import numpy as np
 from io import BytesIO
 import io
-from streamlit_cropper import st_cropper
 from pipeline import run_pipe
 import cv2 as cv
 

@@ -1,7 +1,6 @@
 import cv2 as cv
 import numpy as np
 from Data_ingest import GetImg
-from static.pneumonia_model import model
 import warnings
 warnings.filterwarnings('ignore')
 
