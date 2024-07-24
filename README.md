@@ -11,7 +11,6 @@ Welcome to the Pneumonia Detection project! This streamlit application is design
   - `Data_process.py`: Python script for data processing.
   - `Prediction.py`: Python script for making predictions.
   - `app.py`: Main Streamlit application file.
-  - `new.py`: Additional Python script.
   - `pipeline.py`: Python script for the data processing pipeline.
   - `requirements.txt`: List of project dependencies.
   - `images/`: Folder containing X-ray images.
